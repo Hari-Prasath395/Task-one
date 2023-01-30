@@ -1,0 +1,35 @@
+write a blog on difference between HTTP1.1 vs HTTP2
+
+HTTP-Hypertext Transfer Protocol, is the protocol used to transfer data on the web.
+HTTP 1.1
+
+Released in 1999, HTTP 1.1 is the previous generation of the protocol.
+=>It uses a request-response model where a single request-response pair is sent over a single TCP connection.
+=>It also uses multiple requests to load a single web page, which can slow down the page load time.
+
+HTTP 2
+
+Released in 2015, HTTP/2 is the latest version of the protocol.
+=>It uses a binary format instead of a text format, which makes it faster and more efficient.
+=>It supports multiplexing, allowing multiple requests to be sent over a single connection, reducing latency.
+=>It also uses server push, where the server can send resources to the client without being requested, speeding up the page load time.
+=>In conclusion, HTTP/2 is a significant improvement over HTTP 1.1. It offers faster page load times, improved efficiency, and reduced latency. 
+If your website is still using HTTP 1.1, it’s time to upgrade to HTTP/2 to provide a better user experience.
+
+=============================================================================================================================================================
+write a blog about objects and its internal representation in javascript
+
+Javascript is an object-oriented language, were objects plays an important part of the language. 
+Objects in Javascript are used to store data in key-value pairs were we can organize and structure data. 
+
+The internal representation of Javascript objects is based on hash tables. A hash table is a data structure that uses a hash function to map keys to values. 
+In Javascript, each object has a hash table that maps its properties to their values. When a property is accessed,the hash table is consulted to find its 
+value.
+
+The important aspect of internal representation of Javascript objects is the way it affects object equality. In Javascript, two objects are considered 
+equal if they have the same properties and values.
+
+Another important aspect of the internal representation of Javascript objects is that they are mutable. This means that their properties and values can be 
+changed after they are created. This can lead to unexpected behavior if objects are shared between multiple parts of a program and one part of the program 
+changes the object.
+
